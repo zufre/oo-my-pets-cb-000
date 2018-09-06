@@ -33,6 +33,11 @@ class Owner
     pets[:fishes] << fish
   end
 
+  def buy_cat(name)
+    cat = Fish.new(name)
+    pets[:cats] << cat
+  end
+
 
 
 
