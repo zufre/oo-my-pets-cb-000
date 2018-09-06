@@ -1,4 +1,4 @@
-class feed_fish
+class fish
 attr_reader :name
 attr_accessor :mood
 
