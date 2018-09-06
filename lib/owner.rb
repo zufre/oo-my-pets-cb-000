@@ -67,10 +67,10 @@ class Owner
         animal.mood = "nervous"
       end
       animals.clear
-    end  
+    end
   end
   def list_pets
-    "I have #{pets[:fishes]} fish, #{pets[:dogs]} dog(s), and #{pets[:cats]} cat(s)."
+    "I have #{pets[:fishes].length} fish, #{pets[:dogs]} dog(s), and #{pets[:cats]} cat(s)."
   end
 
 
