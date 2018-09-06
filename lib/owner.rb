@@ -16,5 +16,10 @@ class Owner
     @@all.length
   end
 
+  def species(species)
+    @species = species
+  end
+end
+
 
 end
