@@ -16,8 +16,8 @@ class Owner
     @@all.length
   end
 
-  def species(species)
-    @species = species
+  def species
+    @species = "human""
   end
 
 
