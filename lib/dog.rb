@@ -7,4 +7,3 @@ attr_accessor :mood
     @mood = "nervous"
   end
 end
-
