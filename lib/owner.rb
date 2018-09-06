@@ -4,6 +4,7 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
+    @pets = {}
 
   end
   def self.all
@@ -24,7 +25,10 @@ class Owner
   def say_species
      "I am a #{self.species}."
   end
-  
+  def pets 
+    @pets
+  end
+
 
 
 
