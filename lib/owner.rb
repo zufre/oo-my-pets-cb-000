@@ -12,4 +12,9 @@ class Owner
   def self.reset_all
     @@all.clear
   end
+  def count
+    @all.length
+  end
+    
+  end
 end
